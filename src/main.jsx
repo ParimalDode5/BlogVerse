@@ -14,7 +14,7 @@ import Signup from './pages/Signup.jsx'
 import EditPost from './pages/EditPost.jsx'
 import Post from './pages/Post.jsx'
 import AllPosts from './pages/AllPosts.jsx'
-import SavedPosts from './pages/savedPosts.jsx'
+import SavedPosts from './pages/SavedPosts.jsx'
 import Profile from './pages/Profile.jsx'
 
 import 'react-loading-skeleton/dist/skeleton.css';
