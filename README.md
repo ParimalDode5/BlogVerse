@@ -1,16 +1,145 @@
-# React + Vite
+# 🚀 BlogVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Full Stack Blogging Platform built with React, Appwrite, Redux Toolkit and Tailwind CSS.
 
-Currently, two official plugins are available:
+BlogVerse allows users to create, edit, publish and manage blogs with authentication, likes, comments, bookmarks and profile management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Add screenshots here after deployment.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔐 User Authentication
+- 📝 Create, Edit & Delete Blogs
+- ❤️ Like Posts
+- 💬 Comment System
+- 📑 Bookmark Posts
+- 🔍 Search Blogs
+- 👤 User Profile
+- 📊 Profile Statistics
+- ⏳ Relative Timestamps
+- 💀 Skeleton Loading
+- 📱 Responsive Design
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- TinyMCE Editor
+
+### Backend
+
+- Appwrite
+    - Authentication
+    - Database
+    - Storage
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── Appwrite
+├── Components
+├── Pages
+├── Redux
+├── Store
+├── Utils
+└── Assets
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/ParimalDode5/BlogVerse.git
+```
+
+Move into project
+
+```bash
+cd BlogVerse
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create `.env`
+
+```env
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_COLLECTION_ID=
+VITE_APPWRITE_BUCKET_ID=
+VITE_APPWRITE_COLLECTION_COMMENT_ID=
+VITE_APPWRITE_COLLECTION_LIKE_ID=
+VITE_APPWRITE_COLLECTION_BOOKMARK_ID=
+VITE_TINYMCE_API_KEY=
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 What I Learned
+
+- React Hooks
+- Redux Toolkit
+- Appwrite Authentication
+- CRUD Operations
+- State Management
+- Routing
+- Rich Text Editor Integration
+- Skeleton Loading
+- Responsive UI
+- Full Stack Application Development
+
+---
+
+## 🚀 Future Improvements
+
+- Email Notifications
+- Follow Users
+- Categories & Tags
+- Dark Mode
+- Share Posts
+- Infinite Scrolling
+
+---
+
+## 👨‍💻 Author
+
+**Parimal Dode**
+
+GitHub:
+https://github.com/ParimalDode5
+
+---
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.<img width="1901" height="588" alt="image" src="https://github.com/user-attachments/assets/61b68bf1-51dc-4313-8d44-29359d7df017" />
