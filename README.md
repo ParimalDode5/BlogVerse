@@ -12,13 +12,11 @@ Create, read, edit and share blogs with authentication, bookmarks, likes, commen
 
 ## 🌐 Live Demo
 
-> Coming Soon...
+👉 https://blog-verse-lac.vercel.app/
 
 ---
 
 ## 📸 Screenshots
-
-> Add screenshots after deployment.
 
 ### 🏠 Home Page
 
@@ -97,11 +95,12 @@ Create, read, edit and share blogs with authentication, bookmarks, likes, commen
 - Tailwind CSS
 - TinyMCE
 
-## Backend
+## Backend & Services
 
 - Appwrite Authentication
 - Appwrite Database
 - Appwrite Storage
+- Appwrite SDK
 
 ---
 
@@ -224,18 +223,17 @@ npm run build
 
 # 📚 What I Learned
 
-- React Hooks
-- React Router
-- Redux Toolkit
-- State Management
-- CRUD Operations
-- Appwrite Authentication
-- Appwrite Database
-- Appwrite Storage
-- Rich Text Editor Integration
-- Skeleton Loading
-- Responsive Design
-- Full Stack Project Development
+Through this project I gained hands-on experience with:
+
+- Building scalable React applications
+- State management using Redux Toolkit
+- Authentication and database integration with Appwrite
+- Rich text editor integration using TinyMCE
+- Image upload and storage
+- Implementing social features (Likes, Comments, Bookmarks)
+- Skeleton loading for better UX
+- Responsive UI development
+- Deploying production-ready applications on Vercel
 
 ---
 
@@ -262,7 +260,7 @@ https://github.com/ParimalDode5
 
 LinkedIn
 
-> Add your LinkedIn Profile URL here
+https://www.linkedin.com/in/parimal-dode-3a33b3342/
 
 ---
 
