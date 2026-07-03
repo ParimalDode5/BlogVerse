@@ -49,16 +49,57 @@ BlogVerse allows users to create, edit, publish and manage blogs with authentica
 
 ## 📂 Project Structure
 
-```
+```text
 src
 │
-├── Appwrite
-├── Components
-├── Pages
-├── Redux
-├── Store
-├── Utils
-└── Assets
+├── Appwrite/              # Appwrite services (Auth, Posts, Likes, Comments, Bookmarks)
+│
+├── assets/                # Images & static assets
+│
+├── components/
+│   ├── bookmark/
+│   ├── comments/
+│   ├── container/
+│   ├── Footer/
+│   ├── Header/
+│   ├── like/
+│   ├── LogoImage/
+│   ├── post-form/
+│   ├── profile/
+│   ├── search/
+│   ├── skeleton/
+│   ├── AuthLayout.jsx
+│   ├── Button.jsx
+│   ├── Input.jsx
+│   ├── Logo.jsx
+│   ├── PostCard.jsx
+│   ├── PostImage.jsx
+│   ├── RTE.jsx
+│   ├── Select.jsx
+│   └── index.js
+│
+├── conf/
+│   └── conf.js
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── AllPosts.jsx
+│   ├── Post.jsx
+│   ├── AddPost.jsx
+│   ├── EditPost.jsx
+│   ├── SavedPosts.jsx
+│   ├── Profile.jsx
+│   ├── Login.jsx
+│   └── Signup.jsx
+│
+├── store/
+│   ├── authSlice.js
+│   ├── likeSlice.js
+│   └── store.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 ```
 
 ---
