@@ -20,19 +20,11 @@ Create, read, edit and share blogs with authentication, bookmarks, likes, commen
 
 ### 🏠 Home Page
 
-<img src="screenshots/home.png" width="100%">
+<p align="center">
+<img src="screenshots/Blog-HomePage.png" width="90%">
+</p>
 
-### 📝 Blog Details
-
-<img src="screenshots/post.png" width="100%">
-
-### 👤 User Profile
-
-<img src="screenshots/profile.png" width="100%">
-
-### 📑 Saved Posts
-
-<img src="screenshots/saved-posts.png" width="100%">
+More screenshots are available in the **screenshots/** folder.
 
 ---
 
